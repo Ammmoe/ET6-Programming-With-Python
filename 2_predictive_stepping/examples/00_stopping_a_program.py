@@ -9,4 +9,4 @@ You can stop a program at any time when you are in the debugger.
 """
 
 while True:
-    print("...")
+        print("...")

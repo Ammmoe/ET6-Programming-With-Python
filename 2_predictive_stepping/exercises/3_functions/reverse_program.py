@@ -30,4 +30,4 @@ while user_text == "":
 
 reversed_text = reverse_string(user_text)
 
-print(user_text, " -> ", reversed_text)
+print(f"{user_text} -> {reversed_text}")

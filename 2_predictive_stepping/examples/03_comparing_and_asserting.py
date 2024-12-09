@@ -20,7 +20,7 @@ equality = 1 == 1.0
 equality = 1 == 1
 equality = 1 == "1"
 equality = True == "True"
-equality = "dog" == "Dog"
+equality = "dog" == "dog"
 
 # Check if two values are not the same using !=
 
@@ -38,11 +38,11 @@ assert 1 == 1
 assert 1 == 1.0
 
 # asserting values stored in variables
-assert equality is False
-assert difference is True
+assert equality is False, "equality is not False"
+assert difference is True, "difference is not True"
 
-assert isinstance(equality, bool)
-assert isinstance(difference, bool)
+assert isinstance(equality, bool), "equality is not bool"
+assert isinstance(difference, bool), "difference is not bool"
 
 # failing assertions
 #   uncomment any of the following lines to throw an assertion error

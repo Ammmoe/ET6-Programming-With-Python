@@ -15,6 +15,6 @@ if user_text == "":
 elif user_text == "cat":
     response = "Thank you for the cat"
 else:
-    response = '"' + user_text + '" is not "cat"'
+    response = f'"{user_text}" is not "cat"'
 
 print(response)
