@@ -36,8 +36,12 @@ def join_words(words: list, separator: str) -> str:
     """
     assert isinstance(words, list), "first argument must be a list"
     assert isinstance(separator, str), "separator must be a string"
+    assert all(isinstance(word, str) for word in words), "list must only contain strings"
     
     result = ""
     for word in words:
-        result = result + separator + word
+        if result == "":
+            result = word
+        else:
+            result = result + separator + word
     return result
