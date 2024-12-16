@@ -6,7 +6,7 @@ Contains correct tests to help identify bugs in the implementation.
 
 Test categories:
   - Standard cases: typical string lists
-  - Edge cases: empty strings, equal lengths
+  - Edge cases: empty lists and an empty string
   - Defensive tests: invalid inputs
     
 Created on 15-Dec-2024

@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 15-Dec-2024
+A module for checking if a string exists in given two lists of strings.
 
+Module contents:
+    - is_in_both function
+    
+Created on 15-Dec-2024
 @author: Aung Myin Moe
 """
 
