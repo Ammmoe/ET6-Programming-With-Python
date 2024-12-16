@@ -6,9 +6,10 @@ A module for checking if a string exists in only one of the two given lists of s
 Module contents:
     - is_in_one function
     
-Created on 15-Dec-2024
+Created on 16-Dec-2024
 @author: Aung Myin Moe
 """
+
 
 # ---- define function ----
 def is_in_one(list_1: list[str], list_2: list[str], string: str) -> bool:

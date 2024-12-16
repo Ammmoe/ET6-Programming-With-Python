@@ -18,6 +18,7 @@ import unittest
 
 from ..is_in_one import is_in_one
 
+
 class TestIsInOne(unittest.TestCase):
   """Test suite for the is_in_one function."""
   
